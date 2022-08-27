@@ -1,0 +1,19 @@
+.container {
+    background-image: url(../public/home-page-image.svg);
+    
+}
+
+.section{
+    padding-top : 90px;
+    background: #02000E;
+}   
+
+.paper{
+    background-image: url(../public/Rectangle-108.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 420px
+}
+
+
