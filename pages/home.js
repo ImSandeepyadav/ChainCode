@@ -172,12 +172,7 @@ const HomePage = (width) => {
                   style={{
                     fontFamily: "Montserrat",
                     fontWeight: 400,
-                    fontSize:
-                      width === "xs"
-                        ? "12px"
-                        : width === "sm"
-                        ? "16px"
-                        : "18px",
+                    fontSize: '18px',
                     color: "#FFFFFF",
                     padding: "30px",
                   }}
@@ -640,10 +635,10 @@ const HomePage = (width) => {
           <div style={{ margin: "3% 0" }}>
             <Box sx={{ flexGrow: 1 }}>
               <Grid container spacing={2}>
-                {items.map((item) => {
+                {items.map((item, key) => {
                   return (
                     <Grid item xs={12} sm={4}>
-                      <TrendingItem item={item} />
+                      <TrendingItem item={item} key={key}/>
                     </Grid>
                   );
                 })}
@@ -652,7 +647,7 @@ const HomePage = (width) => {
           </div>
         </div>
       </div>
-      <Footer width={width} />
+      <Footer />
     </div>
   );
 };
