@@ -19,7 +19,7 @@ import Finance from "../public/finance.png";
 import Healthcare from "../public/healthcare.png";
 import Real from "../public/Real estate.png";
 import Supply from "../public/Supply chain.png";
-
+import Elements from "../public/Elements-09.svg"
 
 const items = [
   {
@@ -89,7 +89,7 @@ const HomePage = (width) => {
             Accelerating <br />
             Decentralization
           </Typography>
-          <Image src={Vector} />
+          <Image src={Vector} alt="next"/>
           <Typography
             style={{
               marginTop: "10px",
@@ -112,7 +112,6 @@ const HomePage = (width) => {
               border: "2px solid",
               background:
                 "linear-gradient(90.19deg, #B43795 0.15%, #7534B2 99.84%)",
-              // borderImageSource: 'linear-gradient(90.19deg, #B43795 0.15%, #7534B2 99.84%)',
               width: "170px",
               height: "40px",
               padding: "1px",
@@ -162,9 +161,12 @@ const HomePage = (width) => {
             </div>
             <div style={{ paddingTop: "60px" }}>
               <Paper className={styles.paper}>
-                <img
-                  src="../Elements-09.svg"
-                  style={{ padding: "15px", width: "100%", height: "120px" }}
+                <Image
+                  src={Elements}
+                  alt="next"
+                  width={300}
+                  height={100}
+                  style={{paddingLeft: "20px"}}
                 />
                 <Typography
                   style={{
@@ -205,7 +207,7 @@ const HomePage = (width) => {
               >
                 Get In Touch
               </Typography>
-              <Image src={Vector} />
+              <Image src={Vector} alt="next"/>
             </div>
             <div style={{ paddingTop: "30px" }}>
               <Typography
@@ -448,6 +450,7 @@ const HomePage = (width) => {
           <div>
             <Image
               src={Upwork}
+              alt="next"
               width={200}
               height={100}
             />
@@ -463,11 +466,12 @@ const HomePage = (width) => {
             >
               We are top rated with 100% job success rate on Upwork.
             </Typography>
-            <Image src={Star} width={120} height={50}/>
+            <Image src={Star} alt="next" width={120} height={50}/>
           </div>
           <div>
             <Image
               src={microsoft}
+              alt="next"
               width={200}
               height={100}
             />
@@ -484,11 +488,12 @@ const HomePage = (width) => {
               Microsoft Century Program ranked our supply chain management
               product amongst TOP 6.
             </Typography>
-            <Image src={Star} width={120} height={50}/>
+            <Image src={Star} alt="next" width={120} height={50}/>
           </div>
           <div>
             <Image
               src={Dipp}
+              alt="next"
               width={200}
               height={100}
             />
@@ -504,7 +509,7 @@ const HomePage = (width) => {
             >
               Founded in 2019 we are a DIPP recognized start up.
             </Typography>
-            <Image src={Star} width={120} height={50}/>
+            <Image src={Star} alt="next" width={120} height={50}/>
           </div>
         </div>
 
@@ -525,6 +530,7 @@ const HomePage = (width) => {
           <div>
             <Image
               src={Finance}
+              alt="next"
              width={150}
              height={150}
             />
@@ -543,6 +549,7 @@ const HomePage = (width) => {
           <div>
             <Image
               src={Healthcare}
+              alt="next"
               width={150}
               height={150}
             />
@@ -561,6 +568,7 @@ const HomePage = (width) => {
           <div>
             <Image
               src={Real}
+              alt="next"
               width={150}
               height={150}
             />
@@ -579,6 +587,7 @@ const HomePage = (width) => {
           <div>
             <Image
               src={Supply}
+              alt="next"
               width={150}
               height={150}
             />
@@ -609,7 +618,7 @@ const HomePage = (width) => {
             >
               SERVICES
             </Typography>
-            <Image src={Vector} />
+            <Image src={Vector} alt="next"/>
           </div>
           <div style={{ paddingTop: "30px" }}>
             <Typography
@@ -660,7 +669,7 @@ const TrendingItem = (props) => {
         textAlign: "center",
       }}
     >
-      <Image src={img} width={100} height={100} />
+      <Image src={img} alt="next" width={100} height={100} />
       <div>
         <Typography
           style={{

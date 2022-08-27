@@ -41,11 +41,11 @@ const Footer = (props) =>{
                 </Typography>
             </div>
             <div style={{paddingTop: "30px" , display: 'flex', gap: '15px', alignItems: 'center'}}>
-                <Image src={Linkdin} width={30} height={30} />
-                <Image src={Ig} width={30} height={30}/>
-                <Image src={Twitter} width={30} height={30}/>
-                <Image src={Youtube} width={30} height={30}/>
-                <Image src={Facebook} width={30} height={30}/>
+                <Image src={Linkdin} alt="next" width={30} height={30} />
+                <Image src={Ig} alt="next" width={30} height={30}/>
+                <Image src={Twitter} alt="next" width={30} height={30}/>
+                <Image src={Youtube} alt="next" width={30} height={30}/>
+                <Image src={Facebook} alt="next" width={30} height={30}/>
             </div>
             </div>
             <div>
