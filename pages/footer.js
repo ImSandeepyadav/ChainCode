@@ -6,7 +6,7 @@ import Ig from '../public/ig.png';
 import Twitter from '../public/twitter.png';
 import Youtube from '../public/youtube.png';
 import Facebook from '../public/facebook.png';
-
+import Logo from '../public/logo.png';
 
 const Footer = (props) =>{
     const {width} = props;
@@ -15,7 +15,7 @@ const Footer = (props) =>{
         <div style={{display: 'flex', justifyContent: 'space-around',padding: '30px',}}> 
             <div>
             <div style={{ width: width === "xs" ? "100%" : "80%" }}>
-                <img src='../logo.png' alt="next" style={{width: '100%', height: '60px'}}/>
+                <Image src={Logo} alt="next" width={200} height={80}/>
             </div>
             <div style={{padding: '10px'}}>
                 <Typography style={{
