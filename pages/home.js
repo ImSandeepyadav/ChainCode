@@ -178,12 +178,12 @@ const HomePage = (width) => {
                   }}
                 >
                   Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
+                  typesetting industry. Lorem Ipsum has been the industrys
                   standard dummy text ever since the 1500s, when an unknown
                   printer took a galley of type and scrambled it to make a type
                   specimen book. Lorem Ipsum is simply dummy text of the
                   printing and typesetting industry. Lorem Ipsum has been the
-                  industry's standard dummy text ever since the 1500s, when an
+                  industrys standard dummy text ever since the 1500s, when an
                   unknown printer took a galley of type and scrambled it to make
                   a type specimen book.
                 </Typography>
@@ -351,8 +351,8 @@ const HomePage = (width) => {
                 fontSize: "100px",
                 background:
                   "linear-gradient(180deg, #B43795 0%, rgba(2, 0, 14, 0.51) 100%)",
-                webkitBackgroundClip: "text",
-                webkitTextFillColor: "transparent",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
                 textFillColor: "transparent",
               }}
@@ -379,8 +379,8 @@ const HomePage = (width) => {
                 fontSize: "100px",
                 background:
                   "linear-gradient(180deg, #B43795 0%, rgba(2, 0, 14, 0.51) 100%)",
-                webkitBackgroundClip: "text",
-                webkitTextFillColor: "transparent",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
                 textFillColor: "transparent",
               }}
@@ -407,8 +407,8 @@ const HomePage = (width) => {
                 fontSize: "100px",
                 background:
                   "linear-gradient(180deg, #B43795 0%, rgba(2, 0, 14, 0.51) 100%)",
-                webkitBackgroundClip: "text",
-                webkitTextFillColor: "transparent",
+                WebkitBackgroundClip: "text",
+                WebkitTextFillColor: "transparent",
                 backgroundClip: "text",
                 textFillColor: "transparent",
               }}
@@ -635,10 +635,10 @@ const HomePage = (width) => {
           <div style={{ margin: "3% 0" }}>
             <Box sx={{ flexGrow: 1 }}>
               <Grid container spacing={2}>
-                {items.map((item, key) => {
+                {items.map((item, i) => {
                   return (
-                    <Grid item xs={12} sm={4}>
-                      <TrendingItem item={item} key={key}/>
+                    <Grid key={i} item xs={12} sm={4}>
+                      <TrendingItem item={item} />
                     </Grid>
                   );
                 })}
