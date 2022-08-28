@@ -176,13 +176,14 @@ const HomePage = (width) => {
               </div>
               <div style={{position: "absolute",}}>
               <div className={styles.paper}>
+                <div style={{paddingLeft: "60px",}}>
                 <Image
                   src={Elements}
                   alt="next"
                   width={250}
                   height={100}
-                  style={{paddingLeft: "30px",}}
                 />
+                </div>
                 <Typography
                   style={{
                     fontFamily: "Montserrat",
