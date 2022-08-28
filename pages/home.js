@@ -181,7 +181,7 @@ const HomePage = (width) => {
                   alt="next"
                   width={250}
                   height={100}
-                  style={{paddingLeft: "30px", textAlign: "center",}}
+                  style={{paddingLeft: "30px",}}
                 />
                 <Typography
                   style={{
