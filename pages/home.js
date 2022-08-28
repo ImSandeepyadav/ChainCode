@@ -21,7 +21,7 @@ import Real from "../public/Real estate.png";
 import Supply from "../public/Supply chain.png";
 import Elements from "../public/Elements-09.svg"
 import Ellipse from "../public/Ellipse-16.png";
-import Exp1 from "../public/Exp1.png";
+import Exp1 from "../public/exp1.png";
 
 const items = [
   {
