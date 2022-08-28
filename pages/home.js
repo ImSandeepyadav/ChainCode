@@ -20,6 +20,8 @@ import Healthcare from "../public/healthcare.png";
 import Real from "../public/Real estate.png";
 import Supply from "../public/Supply chain.png";
 import Elements from "../public/Elements-09.svg"
+import Ellipse from "../public/Ellipse-16.png";
+import Exp1 from "../public/Exp1.png";
 
 const items = [
   {
@@ -160,13 +162,26 @@ const HomePage = (width) => {
               </Typography>
             </div>
             <div style={{ paddingTop: "60px" }}>
-              <Paper className={styles.paper}>
+              <div style={{position: "absolute",  left: "500px", top: "690px",backgroundSize: 'cover', 
+              backgroundRepeat: 'no-repeat',}}>
+              <Image src={Ellipse} alt="next" width={130} height={130} />
+              </div>
+              <div style={{position: "absolute", 
+              top:"1020px", 
+              left:"40px",
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'cover',
+              transform: 'matrix(-1, 0, 0, 1, 0, 0)',}}>
+                <Image src={Exp1} alt="next" width={300} height={250}/>
+              </div>
+              <div style={{position: "absolute",}}>
+              <div className={styles.paper}>
                 <Image
                   src={Elements}
                   alt="next"
-                  width={300}
+                  width={250}
                   height={100}
-                  style={{paddingLeft: "20px"}}
+                  style={{paddingLeft: "30px", textAlign: "center",}}
                 />
                 <Typography
                   style={{
@@ -187,7 +202,8 @@ const HomePage = (width) => {
                   unknown printer took a galley of type and scrambled it to make
                   a type specimen book.
                 </Typography>
-              </Paper>
+              </div>
+              </div>
             </div>
           </div>
           <div style={{ paddingTop: "30px"}}>

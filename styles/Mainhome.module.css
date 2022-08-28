@@ -1,6 +1,6 @@
 .container {
     background-image: url(../public/home-page-image.svg);
-    
+    width: 100%;
 }
 
 .section{
@@ -13,7 +13,10 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 420px
+    width: 420px;
+    height: 480px;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
 
 
