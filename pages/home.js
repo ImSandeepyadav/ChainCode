@@ -476,7 +476,7 @@ const HomePage = (width) => {
                 color: "#FFFFFF",
               }}
             >
-              We are top rated with 100% job success rate on Upwork.
+              We are top rated with 100% <br /> job success rate on Upwork.
             </Typography>
             <Image src={Star} alt="next" width={120} height={50}/>
           </div>
@@ -484,7 +484,7 @@ const HomePage = (width) => {
             <Image
               src={microsoft}
               alt="next"
-              width={200}
+              width={250}
               height={100}
             />
             <Typography
@@ -497,7 +497,7 @@ const HomePage = (width) => {
                 color: "#FFFFFF",
               }}
             >
-              Microsoft Century Program ranked our supply chain management
+              Microsoft Century Program ranked <br /> our supply chain management <br />
               product amongst TOP 6.
             </Typography>
             <Image src={Star} alt="next" width={120} height={50}/>
@@ -519,7 +519,7 @@ const HomePage = (width) => {
                 color: "#FFFFFF",
               }}
             >
-              Founded in 2019 we are a DIPP recognized start up.
+              Founded in 2019 we are a <br /> DIPP recognized start up.
             </Typography>
             <Image src={Star} alt="next" width={120} height={50}/>
           </div>
